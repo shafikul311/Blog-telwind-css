@@ -17,7 +17,7 @@ const Blog = () => {
     return (
         <div>
             {
-                blog.map(blogs => <Blogs key={blog.author} blogs={blogs}></Blogs>)
+                blog?.map(blogs => <Blogs key={blog.author} blogs={blogs}></Blogs>)
             }
         </div>
     );
